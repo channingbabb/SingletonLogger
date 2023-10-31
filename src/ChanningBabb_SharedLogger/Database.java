@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Database {
     // database final variables
     // credentials and database url
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/jeffs_animals";
-    private static final String JDBC_USER = "jeff";
-    private static final String JDBC_PASSWORD = "supersecretpassword123";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/favorite_students";
+    private static final String JDBC_USER = "jbaarsch";
+    private static final String JDBC_PASSWORD = "adrianna-naya-channing123";
 
     // Singleton instance
     private static Database instance;

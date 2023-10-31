@@ -27,6 +27,7 @@ public class Logger {
         }
     }
 
+    // SINGLETON!!!
     public static Logger getInstance() {
         if (instance == null) {
             instance = new Logger(); // create a new instance of the Logger class if one does not already exist
